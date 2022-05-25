@@ -16,7 +16,7 @@ public class NativeLibAdapter : MonoBehaviour {
     private static extern void SetViewTextureFromUnity(IntPtr texture, int w, int h);
     [DllImport("macPlugin")]
     private static extern IntPtr GetRenderEventFunc();
-#elif PLATFORM_IOS
+#elif UNITY_IOS
     [DllImport("__Internal")]
     private static extern void RecieveImage(byte[] bytes, int width, int height, bool isGreen);
     [DllImport("__Internal")]

@@ -52,8 +52,13 @@ public class OpenCV : MonoBehaviour {
         nativeLibAdapter.StartOnRenderEvent();
     }
 
-    public void SetBackgroundImage(Texture2D texture, bool mirror, bool rotate) {
-        nativeLibAdapter.SendBackgroundImage(texture, mirror, rotate);
+    //public void SetBackgroundImage(Texture2D texture, bool mirror, bool rotate) {
+    //    nativeLibAdapter.SendBackgroundImage(texture, mirror, rotate);
+    //}
+
+    public void SetReset(bool reset)
+    {
+        nativeLibAdapter.SendReset(reset);
     }
 
     public void ProcessImage(Texture2D texture) {

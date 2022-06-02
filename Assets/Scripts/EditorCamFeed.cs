@@ -9,7 +9,7 @@ public class EditorCamFeed : MonoBehaviour {
 
     public void Init() {
         openCV = GetComponent<OpenCV>();
-        webCamTex = new WebCamTexture(WebCamTexture.devices[0].name, 640, 480, 30);
+        webCamTex = new WebCamTexture(WebCamTexture.devices[2].name, 640, 480, 30); //WebCamTexture(WebCamTexture.devices[0].name, 640, 480, 30);
         webCamTex.Play();
     }
 

@@ -1,2 +1,5 @@
-
+Temp/*
+Library/*
+*.DS_Store
+*.meta
 .vsconfig

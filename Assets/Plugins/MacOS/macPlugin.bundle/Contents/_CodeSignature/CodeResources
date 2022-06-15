@@ -4,13 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/Info.plist</key>
+		<key>Resources/ArUcoMarker.h</key>
 		<data>
-		scLxJYVKCa+xBHWg/tx8iJWu+E4=
+		nXyaoCz7H1WERHnMk8EX7dRIMys=
+		</data>
+		<key>Resources/Calibration.h</key>
+		<data>
+		YpCmColiMM52Ob9hFR5qQuU2CEg=
+		</data>
+		<key>Resources/Marker.h</key>
+		<data>
+		Yy7xYXQ/cQVt9150HaDIabNeKkI=
+		</data>
+		<key>Resources/MtMarkerHiding.h</key>
+		<data>
+		BLW4gl2WDKXQGQj+RY3K49hhgtQ=
+		</data>
+		<key>Resources/OneLvPixMix.h</key>
+		<data>
+		Ur2ge9/IwH9dMrujmwcefyzRdfY=
 		</data>
 		<key>Resources/OpenCVPlugin.hpp</key>
 		<data>
-		n5+ot7USUI7SkCB3VXZwRqNRmkc=
+		JZdUQa3E4oZeBxH/f8wRs0llb1c=
+		</data>
+		<key>Resources/PixMix.h</key>
+		<data>
+		b+bEF9DqTyc/5TSJcqul2Tk3c18=
+		</data>
+		<key>Resources/PixMixMarkerHiding.h</key>
+		<data>
+		CIfEzm1aM2vb4o0z/scmXSD2E/4=
 		</data>
 		<key>Resources/PlatformBase.h</key>
 		<data>
@@ -18,11 +42,15 @@
 		</data>
 		<key>Resources/RenderAPI.h</key>
 		<data>
-		yeBzvQ425h2Zrvs2ha1RZ5JoGNk=
+		ztMQgLUhh6VJbrya6j7LX7y1WLc=
 		</data>
 		<key>Resources/RenderingPlugin.def</key>
 		<data>
-		cvqYBHO+7NRyPIA6x0cJQlUf7qk=
+		e3RWbsJcy6jCMVruO1MPQUIJ4Q4=
+		</data>
+		<key>Resources/Siltanen.h</key>
+		<data>
+		q1fqk4do6V9ad4ycgp2DtTtAs1I=
 		</data>
 		<key>Resources/Unity/IUnityGraphics.h</key>
 		<data>
@@ -52,6 +80,10 @@
 		<data>
 		yz0CJt9CUmpy/UovPX3WfhOyKSY=
 		</data>
+		<key>Resources/Utilities.h</key>
+		<data>
+		5aOg2YyoBYUwjBCdle2VVYWO4SU=
+		</data>
 		<key>Resources/gl3w/gl3w.c</key>
 		<data>
 		gC6QsAwFkJ3wsF5XK03y+OVHLRo=
@@ -68,21 +100,67 @@
 		<data>
 		DbSBytGlUa9KB1NXNLvz5KLnvbE=
 		</data>
+		<key>Resources/ip.xml</key>
+		<data>
+		geaJZwooF7ivrkcAHKgpJQo+odU=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Resources/Info.plist</key>
+		<key>Resources/ArUcoMarker.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWHZnzxAYKdu5lWej7A13/otIiRJp2DOVP2dmZDz0po=
+			vOnwzo10uw72KbArxQz3ANVQfLURTYDWH0Q/jWVupnk=
+			</data>
+		</dict>
+		<key>Resources/Calibration.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TzfFxxlr0TiQPXL4I/E1daMAmJ06jW0kV6c4XGJM2kY=
+			</data>
+		</dict>
+		<key>Resources/Marker.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RcL2mTFfhS+jbOuYSVjg4LfVo0/wPAafByoF7zAIX8o=
+			</data>
+		</dict>
+		<key>Resources/MtMarkerHiding.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+RtXpt35AxTC9IgE3OKacx0Seysi1xZxNp/7meE5jAQ=
+			</data>
+		</dict>
+		<key>Resources/OneLvPixMix.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r96+mbIMkdTiho6asNlIdoM+oC2D9WkM4H7YHptiKKY=
 			</data>
 		</dict>
 		<key>Resources/OpenCVPlugin.hpp</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ef6BipFOnjKxK5wrIfi4qmTsn9bRfOWBFdyHFbVXuCY=
+			uCokxAK4hgi4iHB5/GiM9fkrtDgjfmuhW/dYsoR8d/w=
+			</data>
+		</dict>
+		<key>Resources/PixMix.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WRCIqMErxwY55K9/5kc2muaPB+Tk7ZMecvKGa6CHJ/A=
+			</data>
+		</dict>
+		<key>Resources/PixMixMarkerHiding.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sI71qXdeo9nwxcgMMi27xV1KpyJjQ6rI+WYdHnurYFw=
 			</data>
 		</dict>
 		<key>Resources/PlatformBase.h</key>
@@ -96,14 +174,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bOns5/8bFXkpkSHtA8ln9k3zB1XU7fea85FA8nVffVk=
+			Q2q6P4S1vWk8JRqREQyPPE2tG7O0JtUIvlGH/WhWsd4=
 			</data>
 		</dict>
 		<key>Resources/RenderingPlugin.def</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/1pvTd1PQYGJ+RxP/KLCay73yhER7rKYs9Cb2OGnhck=
+			veMhoYbAR49ILjD1mcDJNlPHtVfGeIDzefFOl+6hGz0=
+			</data>
+		</dict>
+		<key>Resources/Siltanen.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mW7uhxl7/rB8BVkXDPJTPnIUjiO8J/hFOQgpVlu0Bto=
 			</data>
 		</dict>
 		<key>Resources/Unity/IUnityGraphics.h</key>
@@ -155,6 +240,13 @@
 			Hb1T0L6j6B2rzOIJtOUJavTSNsN/wvffDc7jOKF7frg=
 			</data>
 		</dict>
+		<key>Resources/Utilities.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DngB9JyYQ29kVRJXp2xbf4gUKPYHdNS4RMPEp0D9NAI=
+			</data>
+		</dict>
 		<key>Resources/gl3w/gl3w.c</key>
 		<dict>
 			<key>hash2</key>
@@ -181,6 +273,13 @@
 			<key>hash2</key>
 			<data>
 			bVDCROqJ7nzrb6B7IIUc/dQkVti6FjyZVUGmsnDZnJU=
+			</data>
+		</dict>
+		<key>Resources/ip.xml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gw72/gM/jPjqBjolV+U34yYrK4e3j4+mrFPgdP/d0fE=
 			</data>
 		</dict>
 	</dict>

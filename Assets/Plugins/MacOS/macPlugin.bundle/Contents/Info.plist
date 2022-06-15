@@ -4,6 +4,8 @@
 <dict>
 	<key>BuildMachineOSBuild</key>
 	<string>18D109</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.sam.opencv.macPlugin</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -12,6 +14,8 @@
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
 	<string>10E1001</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -22,5 +26,7 @@
 	<string>1020</string>
 	<key>DTXcodeBuild</key>
 	<string>10E1001</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.3</string>
 </dict>
 </plist>

@@ -6,6 +6,7 @@
 
 struct IUnityInterfaces;
 
+
 // Super-simple "graphics abstraction". This is nothing like how a proper platform abstraction layer would look like;
 // all this does is a base interface for whatever our plugin sample needs. Which is only "draw some triangles"
 // and "modify a texture" at this point.
@@ -16,6 +17,7 @@ class RenderAPI
 public:
 	virtual ~RenderAPI() { }
 
+
 	// Process general event like initialization, shutdown, device loss/reset etc.
 	virtual void ProcessDeviceEvent(UnityGfxDeviceEventType type, IUnityInterfaces* interfaces) = 0;
 
@@ -25,10 +27,8 @@ public:
 
 	// End modifying texture data.
 	virtual void EndModifyTexture(void* textureHandle, int textureWidth, int textureHeight, int rowPitch, void* dataPtr) = 0;
-    
-    virtual void ReadPixels(void* textureHandle, int textureWidth, int textureHeight, int rowPitch, void* output) = 0;
-
 };
+
 
 // Create a graphics API implementation instance for the given API type.
 RenderAPI* CreateRenderAPI(UnityGfxRenderer apiType);

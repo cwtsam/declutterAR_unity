@@ -87,7 +87,7 @@ public class NativeLibAdapter : MonoBehaviour {
     public void SendImage(Texture2D tex) {
         PixMixImage(tex.GetRawTextureData(), tex.width, tex.height, IS_RESET);
         //Debug.Log("IS_RESET" + IS_RESET);
-        Debug.Log("width" + tex.width);
-        Debug.Log("height" + tex.height);
+        //Debug.Log("width" + tex.width);
+        //Debug.Log("height" + tex.height);
     }
 }

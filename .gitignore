@@ -6,3 +6,4 @@ Library/*
 .vs/declutterAR_unity/xs/project-cache/Assembly-CSharp-Debug.json
 .vs/declutterAR_unity/xs/UserPrefs.xml
 gitignore
+Assembly-CSharp.csproj
